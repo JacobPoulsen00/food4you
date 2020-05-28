@@ -1,0 +1,121 @@
+.SearchBar {
+        display: flex;
+        justify-content: center;
+      }
+
+      .SearchBar-sort-options {
+				font-family: 'Quicksand', sans-serif;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				color: #fff;
+				text-align: center;
+				font-weight: bold;
+				line-height: 50px;
+				@media (max-width: 768px) {
+					line-height: 10px;
+				}
+      }
+
+      .SearchBar-sort-options ul {
+				display: flex;
+				justify-content: center;
+				@media (max-width: 768px) {
+							flex-direction: column;
+				}
+      }
+
+      .SearchBar-sort-options li {
+				list-style: none;
+				font-weight: normal;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 20px;
+				cursor: pointer;
+	    }
+
+			.SearchBar-sort-options li:hover {
+				text-decoration: underline;
+			}
+
+			.SearchBar-sort-options li.active {
+					font-weight: bold;
+					text-decoration: underline;
+			}
+
+			.SearchBar-sort-options img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+		}
+
+      .SearchBar input {
+				font-family: 'Quicksand', sans-serif;
+				background-color: #fff;
+				border: none;
+				width: 25vw;
+				color: #666;
+				font-size: 20px;
+				padding: 10px 20px;
+				margin-bottom: 10px;
+      }
+
+			.SearchBar input::placeholder {
+				color: #ccc; 
+			}
+
+			.SearchBar input:nth-child(2) {
+				border-right: 1px solid #ccc;
+			}
+
+			.SearchBar input:nth-child(3) {
+				border-left: 1px solid #ccc;
+			}
+
+      .SearchBar-submit {
+				display: flex;
+				justify-content:center;
+				align-items: center;
+				border-bottom-right-radius: 10px;
+				border-top-right-radius: 10px;
+				border: none;
+				background-color: #d22828;
+				cursor: pointer;
+				width: 65px;
+				height: 45px;
+				font-size: 20px;
+				transition: 1s;
+			}
+
+      .SearchBar-submit a:hover {
+        cursor: pointer;
+        background-color: #a7874b;
+			}
+			
+			.SearchLabel {
+				color: #666;
+				background-color: #fff;
+				padding: 0 20px;
+				display: flex;
+				align-items: center;
+				height: 45px;
+				font-weight: bold;
+				font-size: 20px;
+			}
+
+			.SearchLabel:nth-child(2) {
+				border-radius: 4px 0 0 4px;
+			}
+
+.glass {
+	width: 25px;
+}
+			
+.alert{
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+	font-style: italic;
+	opacity: 0.8;
+}

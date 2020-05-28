@@ -1,0 +1,106 @@
+.Business {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 16.66rem;
+        margin: 0 0 2vw .5vw;
+        background-color: #f2f2f2;
+        box-shadow: -2px 2px 5px grey;
+      }
+      
+      .Business h2 {
+        margin-bottom: .5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .Business .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: -1rem 1rem 1rem 1rem;
+      }
+      
+      .Business .image-container {
+        height: 16.66rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+        overflow: hidden;
+        background: #000000;
+      }
+      
+      .Business .image-container a{
+        display: block;
+        height: 16.66rem;
+      }
+  
+      .Business .image-container a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;  
+      }
+
+      .Business-information {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .Business-information p {
+        font-size: .88rem;
+        font-weight: 300;
+        line-height: 0.5rem;
+      }
+      
+      .Business-address a {
+        text-decoration: none;
+        color: #666;
+        line-height: 28px;
+      }
+      
+      .Business-address img {
+        width: 22px;
+        height: auto;
+      }
+
+      .Business-address a:hover {
+        text-decoration: underline;
+      }
+
+      .Business-reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: right;
+        margin-top: -1.5vh;
+      }
+      
+      .Business-reviews h3 {
+        color: #CCA353;
+        font-weight: 600;
+      }
+
+      .Business-reviews p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2vh;
+      }
+
+      .Business-reviews div {
+        margin-top: -10vh;
+      }
+
+      .Business-reviews img {
+        width: 18px;
+        height: auto;
+        margin-top: -2px;
+        margin-left: 7px;
+      }
+      
+      .Business-reviews .rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+      }
+      
